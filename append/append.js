@@ -5,9 +5,9 @@ class append {
         const n = new Node(data);
         // check if size is 0
         if(this.size === 0){
-            // if size has 0 nodes then add new node to header
+            // sets tail to reference newly made node
             this.header = n;
-            // if size has 0 nodes then add new node to tail
+            // sets tail to reference newly made node
             this.tail = n;
         }
         else{
