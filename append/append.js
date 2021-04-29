@@ -18,6 +18,7 @@ class append {
             // make old tail next property refernce the new tail
             temp.next = this.tail;
         }
+        // increment the size
         this.size++;
     }
 }
