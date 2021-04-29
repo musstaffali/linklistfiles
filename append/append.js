@@ -1,6 +1,7 @@
 // append or insert node in list
 class append {
     append(data){
+        // Creating node to insert in list
         const n = new Node(data);
         if(this.size === 0){
             this.header = n;
