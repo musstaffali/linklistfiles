@@ -13,7 +13,9 @@ class append {
         else{
             // if size has node then save refernce of tail in temporary var
             const temp = this.tail;
+            // make tail reference newley made node
             this.tail = n
+            // make old tail next property refernce the new tail
             temp.next = this.tail;
         }
         this.size++;
