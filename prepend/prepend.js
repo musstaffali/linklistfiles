@@ -1,4 +1,4 @@
-
+// adding a node to beginning of list
 class prepend {
     prepend(data){
         const n = new Node(data);
