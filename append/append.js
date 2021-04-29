@@ -3,6 +3,7 @@ class append {
     append(data){
         // Creating node to insert in list
         const n = new Node(data);
+        // check if size is 0
         if(this.size === 0){
             this.header = n;
             this.tail = n;
