@@ -11,7 +11,7 @@ class append {
             this.tail = n;
         }
         else{
-            // if size has node then 
+            // if size has node then save refernce of tail in temporary var
             const temp = this.tail;
             this.tail = n
             temp.next = this.tail;
