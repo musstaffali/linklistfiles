@@ -5,6 +5,7 @@ class append {
         const n = new Node(data);
         // check if size is 0
         if(this.size === 0){
+            // if size is 0 then add new node to header
             this.header = n;
             this.tail = n;
         }
